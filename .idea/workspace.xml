@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb31174-0ea9-40d7-8b58-a55a56ae997c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/基础/01变量/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/15数组/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础/15数组/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
   </component>
   <component name="GOROOT" url="file://D:/go_sdk" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -54,59 +54,59 @@
       <recent name="E:\go_workspace\src\oldboy\基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build oldboy/基础/14运算符/练习">
-    <configuration name="go build oldboy/基础/11for" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build oldboy/基础/16切片/练习题">
+    <configuration name="go build oldboy/基础/16切片" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/11for" />
+      <package value="oldboy/基础/16切片" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/11for/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/16切片/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/12switch" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/16切片/练习题" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/12switch" />
+      <package value="oldboy/基础/16切片/练习题" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/12switch/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/16切片/练习题/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/13goto" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/16切片/append" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/13goto" />
+      <package value="oldboy/基础/16切片/append" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/13goto/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/16切片/append/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/14运算符" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/16切片/copy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/14运算符" />
+      <package value="oldboy/基础/16切片/copy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/14运算符/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/16切片/copy/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/14运算符/练习" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/16切片/make" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/14运算符/练习" />
+      <package value="oldboy/基础/16切片/make" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/14运算符/练习/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/16切片/make/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build oldboy/基础/14运算符/练习" />
-        <item itemvalue="Go Build.go build oldboy/基础/14运算符" />
-        <item itemvalue="Go Build.go build oldboy/基础/13goto" />
-        <item itemvalue="Go Build.go build oldboy/基础/12switch" />
-        <item itemvalue="Go Build.go build oldboy/基础/11for" />
+        <item itemvalue="Go Build.go build oldboy/基础/16切片/练习题" />
+        <item itemvalue="Go Build.go build oldboy/基础/16切片/copy" />
+        <item itemvalue="Go Build.go build oldboy/基础/16切片/append" />
+        <item itemvalue="Go Build.go build oldboy/基础/16切片/make" />
+        <item itemvalue="Go Build.go build oldboy/基础/16切片" />
       </list>
     </recent_temporary>
   </component>
