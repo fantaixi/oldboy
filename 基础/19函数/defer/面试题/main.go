@@ -15,4 +15,11 @@ func main() {
 	x = 10
 	defer calc("BB", x, calc("B", x, y))
 	y = 20
+
+	/*
+	A 1 2 3
+	B 10 2 12
+	BB 10 12 22
+	AA 1 3 4
+	 */
 }
