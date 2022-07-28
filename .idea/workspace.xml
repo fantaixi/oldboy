@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -36,7 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,14 +55,14 @@
       <recent name="E:\go_workspace\src\oldboy\基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build oldboy/基础/28日志">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/26文件/写文件/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/26文件/往文件中追加内容/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -71,70 +71,43 @@
       <kind value="FILE" />
       <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/25包/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/27时间/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/09练习" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/27时间" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/09练习" />
+      <package value="oldboy/基础/27时间" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/09练习/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/27时间/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/22结构体/初始化" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/27时间/练习" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/22结构体/初始化" />
+      <package value="oldboy/基础/27时间/练习" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/22结构体/初始化/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/27时间/练习/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/22结构体/方法" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/28日志" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/22结构体/方法" />
+      <package value="oldboy/基础/28日志" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/22结构体/方法/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/基础/24接口/空接口" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/24接口/空接口" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/24接口/空接口/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/基础/24接口/类型断言" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/24接口/类型断言" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/24接口/类型断言/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/基础/26文件/打开文件" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/26文件/打开文件" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/26文件/打开文件/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/28日志/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build oldboy/基础/09练习" />
-        <item itemvalue="Go Build.go build oldboy/基础/26文件/打开文件" />
+        <item itemvalue="Go Build.go build oldboy/基础/28日志" />
+        <item itemvalue="Go Build.go build oldboy/基础/27时间/练习" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build oldboy/基础/24接口/空接口" />
+        <item itemvalue="Go Build.go build oldboy/基础/27时间" />
+        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
