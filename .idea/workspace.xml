@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fb31174-0ea9-40d7-8b58-a55a56ae997c" name="Default Changelist" comment="22_07_22" />
+    <list default="true" id="1fb31174-0ea9-40d7-8b58-a55a56ae997c" name="Default Changelist" comment="22_07_22">
+      <change beforePath="$PROJECT_DIR$/基础/28日志/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础/28日志/console.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/28日志/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础/28日志/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -36,7 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,15 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build oldboy/基础/28日志">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="oldboy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/26文件/往文件中追加内容/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,13 +95,22 @@
       <filePath value="$PROJECT_DIR$/基础/28日志/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build oldboy/基础/28日志/runtime" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/基础/28日志/runtime" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/基础/28日志/runtime/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build oldboy/基础/28日志" />
+        <item itemvalue="Go Build.go build oldboy/基础/28日志/runtime" />
         <item itemvalue="Go Build.go build oldboy/基础/27时间/练习" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build oldboy/基础/27时间" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>

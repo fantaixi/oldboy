@@ -1,48 +1,11 @@
 package main
 
 import (
-	"errors"
 	"fmt"
-	"strings"
 	"time"
 )
 
 //往终端写日志相关内容
-
-//定义日志级别
-type LogLevel uint16
-
-const (
-	UNKOWN LogLevel = iota
-	DEBUG
-	TRACE
-	INFO
-	WARNING
-	ERROR
-	FATAL
-)
-
-//根据传递进来的级别找到对应的类型
-func parseLogLevel(s string) (LogLevel, error) {
-	s = strings.ToLower(s)
-	switch s {
-	case "debug":
-		return DEBUG, nil
-	case "trace":
-		return TRACE, nil
-	case "info":
-		return INFO, nil
-	case "warning":
-		return WARNING, nil
-	case "error":
-		return ERROR, nil
-	case "fatal":
-		return FATAL, nil
-	default:
-		err := errors.New("无效的日志级别")
-		return UNKOWN, err
-	}
-}
 
 type Logger struct {
 	level LogLevel
@@ -61,36 +24,38 @@ func NewLog(levelStr string) Logger {
 
 //日志开关：大于debug的才输出
 func (l Logger) enable(logLevel LogLevel) bool {
-	return  logLevel >= l.level
+	return logLevel >= l.level
 }
 
-func (l Logger) Debug(msg string) {
+func log(lv LogLevel, format string,a ...interface{}) {
+	msg := fmt.Sprintf(format,a...)
+	now := time.Now()
+	funcName, fileName, lineNo := getInfo(2)
+	fmt.Printf("[%s] [%s] [%s-%s-%d] %s\n", now.Format("2006-01-02 15:04:05"), getLogString(lv),funcName, fileName, lineNo, msg)
+}
+
+func (l Logger) Debug(format string,a ...interface{}) {
 	if l.enable(DEBUG) {
-		now := time.Now()
-		fmt.Printf("[%s] [DEBUG] %s\n",now.Format("2006-01-02 15:04:05"),msg)
+		log(DEBUG, format,a...)
 	}
 }
-func (l Logger) Info(msg string) {
+func (l Logger) Info(format string,a ...interface{}) {
 	if l.enable(INFO) {
-		now := time.Now()
-		fmt.Printf("[%s] [INFO] %s\n",now.Format("2006-01-02 15:04:05"),msg)
+		log(INFO, format,a...)
 	}
 }
-func (l Logger) Warning(msg string) {
+func (l Logger) Warning(format string,a ...interface{}) {
 	if l.enable(WARNING) {
-		now := time.Now()
-		fmt.Printf("[%s] [WARNING] %s\n",now.Format("2006-01-02 15:04:05"),msg)
+		log(WARNING, format,a...)
 	}
 }
-func (l Logger) Error(msg string) {
+func (l Logger) Error(format string,a ...interface{}) {
 	if l.enable(ERROR) {
-		now := time.Now()
-		fmt.Printf("[%s] [ERROR] %s\n",now.Format("2006-01-02 15:04:05"),msg)
+		log(ERROR, format,a...)
 	}
 }
-func (l Logger) Fatal(msg string) {
+func (l Logger) Fatal(format string,a ...interface{}) {
 	if l.enable(FATAL) {
-		now := time.Now()
-		fmt.Printf("[%s] [FATAL] %s\n",now.Format("2006-01-02 15:04:05"),msg)
+		log(FATAL,format,a...)
 	}
 }
