@@ -4,9 +4,11 @@ import (
 	"time"
 )
 
+var log Logger
 //测试自己写的日志库
 func main() {
-	log := NewLog("Debug")
+	//log := NewLog("Debug")
+	log := NewFileLogger("Debug","./","aaa.log",10*1024*1024)
 	for  {
 		id := 100
 		name := "阿萨德"
