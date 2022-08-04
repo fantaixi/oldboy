@@ -51,63 +51,64 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\go_workspace\src\oldboy\基础\32并发\sync\Mutex" />
       <recent name="E:\go_workspace\src\oldboy\基础\22结构体\自定义类型" />
       <recent name="E:\go_workspace\src\oldboy\基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build oldboy/基础/32并发/select">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build oldboy/基础/33网络编程/客户端">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/workpool/练习/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/32并发/sync/Map/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/单向通道" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/32并发/sync/Map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/单向通道" />
+      <package value="oldboy/基础/32并发/sync/Map" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/单向通道/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/32并发/sync/Map/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/select" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/32并发/sync/atomic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/select" />
+      <package value="oldboy/基础/32并发/sync/atomic" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/select/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/32并发/sync/atomic/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/workpool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/33网络编程/服务端" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/workpool" />
+      <package value="oldboy/基础/33网络编程/服务端" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/workpool/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/33网络编程/服务端/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/workpool/练习" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/基础/33网络编程/客户端" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/workpool/练习" />
+      <package value="oldboy/基础/33网络编程/客户端" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/workpool/练习/main.go" />
+      <filePath value="$PROJECT_DIR$/基础/33网络编程/客户端/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/select" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/workpool/练习" />
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/workpool" />
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/单向通道" />
+        <item itemvalue="Go Build.go build oldboy/基础/33网络编程/客户端" />
+        <item itemvalue="Go Build.go build oldboy/基础/33网络编程/服务端" />
+        <item itemvalue="Go Build.go build oldboy/基础/32并发/sync/atomic" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build oldboy/基础/32并发/sync/Map" />
       </list>
     </recent_temporary>
   </component>
