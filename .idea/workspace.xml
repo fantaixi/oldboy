@@ -42,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/基础/35测试/基准测试" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,65 +50,80 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\go_workspace\src\oldboy\基础\35测试\基准测试" />
+      <recent name="E:\go_workspace\src\oldboy\基础\35测试\单元测试" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\go_workspace\src\oldboy\基础\36flag\os.Args" />
       <recent name="E:\go_workspace\src\oldboy\基础\32并发\sync\Mutex" />
       <recent name="E:\go_workspace\src\oldboy\基础\22结构体\自定义类型" />
       <recent name="E:\go_workspace\src\oldboy\基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build oldboy/基础/33网络编程/客户端">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkSplit in oldboy/基础/35测试/基准测试">
+    <configuration name="BenchmarkSplit in oldboy/基础/35测试/基准测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="oldboy" />
+      <working_directory value="$PROJECT_DIR$/基础/35测试/基准测试" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/基础/35测试/基准测试" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/sync/Map/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkSplit\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/sync/Map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1Split in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/sync/Map" />
+      <package value="oldboy/基础/35测试/单元测试" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/sync/Map/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest1Split\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/32并发/sync/atomic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2Split in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/32并发/sync/atomic" />
+      <package value="oldboy/基础/35测试/单元测试" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/32并发/sync/atomic/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest2Split\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/33网络编程/服务端" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2Split/simple in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/33网络编程/服务端" />
+      <package value="oldboy/基础/35测试/单元测试" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/33网络编程/服务端/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest2Split\E$/^\Qsimple\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/基础/33网络编程/客户端" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSplit in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/33网络编程/客户端" />
+      <package value="oldboy/基础/35测试/单元测试" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/基础/33网络编程/客户端/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSplit\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build oldboy/基础/33网络编程/客户端" />
-        <item itemvalue="Go Build.go build oldboy/基础/33网络编程/服务端" />
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/sync/atomic" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build oldboy/基础/32并发/sync/Map" />
+        <item itemvalue="Go Test.BenchmarkSplit in oldboy/基础/35测试/基准测试" />
+        <item itemvalue="Go Test.Test2Split in oldboy/基础/35测试/单元测试" />
+        <item itemvalue="Go Test.Test2Split/simple in oldboy/基础/35测试/单元测试" />
+        <item itemvalue="Go Test.Test1Split in oldboy/基础/35测试/单元测试" />
+        <item itemvalue="Go Test.TestSplit in oldboy/基础/35测试/单元测试" />
       </list>
     </recent_temporary>
   </component>
