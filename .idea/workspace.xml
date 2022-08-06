@@ -15,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://D:/go_sdk" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go_sdk" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,11 +42,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/基础/35测试/基准测试" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,69 +62,58 @@
       <recent name="E:\go_workspace\src\oldboy\基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkSplit in oldboy/基础/35测试/基准测试">
-    <configuration name="BenchmarkSplit in oldboy/基础/35测试/基准测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$/基础/35测试/基准测试" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/35测试/基准测试" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkSplit\E$" />
+      <filePath value="$PROJECT_DIR$/进阶/01mysql/事务/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test1Split in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/35测试/单元测试" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest1Split\E$" />
+      <filePath value="$PROJECT_DIR$/进阶/01mysql/SQL注入/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test2Split in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/基础/35测试/单元测试" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest2Split\E$" />
+      <filePath value="$PROJECT_DIR$/进阶/01mysql/curd/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test2Split/simple in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/进阶/01mysql/预处理" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/35测试/单元测试" />
+      <package value="oldboy/进阶/01mysql/预处理" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest2Split\E$/^\Qsimple\E$" />
+      <filePath value="$PROJECT_DIR$/进阶/01mysql/预处理/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSplit in oldboy/基础/35测试/单元测试" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/进阶/01mysql/事务" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$/基础/35测试/单元测试" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/基础/35测试/单元测试" />
+      <package value="oldboy/进阶/01mysql/事务" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSplit\E$" />
+      <filePath value="$PROJECT_DIR$/进阶/01mysql/事务/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.BenchmarkSplit in oldboy/基础/35测试/基准测试" />
-        <item itemvalue="Go Test.Test2Split in oldboy/基础/35测试/单元测试" />
-        <item itemvalue="Go Test.Test2Split/simple in oldboy/基础/35测试/单元测试" />
-        <item itemvalue="Go Test.Test1Split in oldboy/基础/35测试/单元测试" />
-        <item itemvalue="Go Test.TestSplit in oldboy/基础/35测试/单元测试" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build oldboy/进阶/01mysql/预处理" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +122,9 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../" />
+    </ignored-roots>
     <MESSAGE value="22_07_22" />
     <option name="LAST_COMMIT_MESSAGE" value="22_07_22" />
   </component>
