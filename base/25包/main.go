@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	a "oldboy/基础/25包/asd"  //可以给包取别名
+	a "oldboy/base/25包/asd" //可以给包取别名
 )
 
 func init() {
