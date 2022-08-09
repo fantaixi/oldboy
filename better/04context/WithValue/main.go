@@ -25,23 +25,27 @@ WithValue携带数据
 -context传递的数据中key、value都是interface类型，这种类型编译期无法确定类型，所以不是很安全，所以在类型断言时别忘了保证程序的健壮性。
  */
 const (
-	KEY = "trace_id"
+	KEY = "trace_id"   //全局的id
 )
 
 func NewRequestID() string {
+	//生成uuid
 	return strings.Replace(uuid.New().String(), "-", "", -1)
 }
 
 func NewContextWithTraceID() context.Context {
+	//基于context.Background生成trace_id
 	ctx := context.WithValue(context.Background(), KEY,NewRequestID())
 	return ctx
 }
 
 func PrintLog(ctx context.Context, message string)  {
+	//格式化输出
 	fmt.Printf("%s|info|trace_id=%s|%s",time.Now().Format("2006-01-02 15:04:05") , GetContextValue(ctx, KEY), message)
 }
 
 func GetContextValue(ctx context.Context,k string)  string{
+	//类型断言，拿到context的值
 	v, ok := ctx.Value(k).(string)
 	if !ok{
 		return ""
@@ -50,7 +54,7 @@ func GetContextValue(ctx context.Context,k string)  string{
 }
 
 func ProcessEnter(ctx context.Context) {
-	PrintLog(ctx, "Golang梦工厂")
+	PrintLog(ctx, "GolangYYDS")
 }
 
 

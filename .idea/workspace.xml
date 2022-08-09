@@ -2,120 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb31174-0ea9-40d7-8b58-a55a56ae997c" name="Default Changelist" comment="22_07_22">
-      <change afterPath="$PROJECT_DIR$/better/02redis/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better/04context/WithCancel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/04context/WithCancel/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better/04context/WithValue/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/04context/WithValue/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/01变量/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/01变量/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/02常量/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/02常量/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/03int/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/03int/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/04float/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/04float/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/05bool/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/05bool/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/07fmt/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/07fmt/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/08string/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/08string/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/09练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/09练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/10if/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/10if/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/11for/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/11for/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/12switch/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/12switch/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/13goto/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/13goto/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/14运算符/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/14运算符/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/14运算符/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/14运算符/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/15数组/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/15数组/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/15数组/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/15数组/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/16切片/append/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/16切片/append/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/16切片/copy/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/16切片/copy/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/16切片/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/16切片/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/16切片/make/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/16切片/make/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/16切片/练习题/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/16切片/练习题/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/17指针/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/17指针/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/18map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/18map/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/18map/map排序/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/18map/map排序/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/18map/slice和map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/18map/slice和map/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/18map/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/18map/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/defer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/defer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/defer/经典例子/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/defer/经典例子/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/defer/面试题/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/defer/面试题/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/函数类型/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/函数类型/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/匿名函数/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/匿名函数/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/变量作用域/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/变量作用域/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/闭包/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/闭包/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/闭包/应用/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/闭包/应用/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/19函数/闭包/经典例子/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/19函数/闭包/经典例子/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/20内置函数/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/20内置函数/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/21fmt包/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/21fmt包/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/JSON/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/JSON/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/初始化/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/初始化/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/匿名字段/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/匿名字段/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/方法/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/方法/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/结构体1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/结构体1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/结构体2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/结构体2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/结构体嵌套/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/结构体嵌套/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/继承/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/继承/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/22结构体/自定义类型/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/22结构体/自定义类型/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/23学生管理系统/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/23学生管理系统/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/24接口/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/24接口/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/24接口/一个类型实现多个接口/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/24接口/一个类型实现多个接口/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/24接口/值接收者和指针接收者/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/24接口/值接收者和指针接收者/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/24接口/空接口/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/24接口/空接口/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/24接口/类型断言/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/24接口/类型断言/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/25包/asd/asd.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/25包/asd/asd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/25包/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/25包/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/26文件/写文件/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/26文件/写文件/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/26文件/往文件中追加内容/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/26文件/往文件中追加内容/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/26文件/往文件中追加内容/sb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base/26文件/往文件中追加内容/sb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/26文件/打开文件/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/26文件/打开文件/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/27时间/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/27时间/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/27时间/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/27时间/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/console.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/mylogger.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/mylogger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/runtime/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/runtime/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/28日志/文件/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/28日志/文件/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/29反射/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/29反射/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/30ini解析/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/base/30ini解析/conf.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/30ini解析/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/30ini解析/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/31strconv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/31strconv/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/channel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/channel/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/channel/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/channel/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/gomaxprocs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/gomaxprocs/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/select/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/select/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/Map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/Map/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/Mutex/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/Mutex/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/Once/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/Once/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/RWMutex/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/RWMutex/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/WaitGroup/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/WaitGroup/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/sync/atomic/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/sync/atomic/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/waitGroup/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/waitGroup/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/workpool/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/workpool/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/workpool/练习/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/workpool/练习/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/32并发/单向通道/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/32并发/单向通道/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/33网络编程/客户端/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/33网络编程/客户端/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/33网络编程/服务端/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/33网络编程/服务端/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/34net_http/http_client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/34net_http/http_client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/34net_http/http_server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/34net_http/http_server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/34net_http/http_server/xx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base/34net_http/http_server/xx.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/单元测试/c.out" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/单元测试/c.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/单元测试/spilt.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/单元测试/spilt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/单元测试/split_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/单元测试/split_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/单元测试/split_test_back.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/单元测试/split_test_back.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/基准测试/spilt.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/基准测试/spilt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/35测试/基准测试/split_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/35测试/基准测试/split_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/36flag/flag/flag.exe" beforeDir="false" afterPath="$PROJECT_DIR$/base/36flag/flag/flag.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/36flag/flag/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/36flag/flag/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/36flag/os.Args/36flag.exe" beforeDir="false" afterPath="$PROJECT_DIR$/base/36flag/os.Args/36flag.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/36flag/os.Args/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/36flag/os.Args/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/37性能调优/37性能调优.exe" beforeDir="false" afterPath="$PROJECT_DIR$/base/37性能调优/37性能调优.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/37性能调优/cpu.pprof" beforeDir="false" afterPath="$PROJECT_DIR$/base/37性能调优/cpu.pprof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/37性能调优/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/37性能调优/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/01mysql/SQL注入/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/01mysql/SQL注入/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/01mysql/curd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/01mysql/curd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/01mysql/事务/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/01mysql/事务/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/01mysql/连接数据库/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/01mysql/连接数据库/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/01mysql/预处理/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/01mysql/预处理/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/02redis/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,30 +71,23 @@
       <recent name="E:\go_workspace\src\oldboy\基础\22结构体\自定义类型" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build oldboy/better/04context/WithValue">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build oldboy/better/06sarama">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="oldboy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/demo3/main.go" />
+      <filePath value="$PROJECT_DIR$/better/04context/WithValue/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/demo2/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/better/04context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/better/04context/WithCancel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/better/04context" />
+      <package value="oldboy/better/04context/WithCancel" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/main.go" />
+      <filePath value="$PROJECT_DIR$/better/04context/WithCancel/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build oldboy/better/04context/WithValue" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -216,22 +99,31 @@
       <filePath value="$PROJECT_DIR$/better/04context/WithValue/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldboy/better/04context/demo3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build oldboy/better/04context/withTimeout" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="oldboy/better/04context/demo3" />
+      <package value="oldboy/better/04context/withTimeout" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/demo3/main.go" />
+      <filePath value="$PROJECT_DIR$/better/04context/withTimeout/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build oldboy/better/06sarama" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/better/06sarama" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/better/06sarama/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build oldboy/better/06sarama" />
+        <item itemvalue="Go Build.go build oldboy/better/04context/withTimeout" />
+        <item itemvalue="Go Build.go build oldboy/better/04context/WithCancel" />
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build oldboy/better/04context/WithValue" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build oldboy/better/04context/demo3" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build oldboy/better/04context" />
       </list>
     </recent_temporary>
   </component>
