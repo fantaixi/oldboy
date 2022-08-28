@@ -1,0 +1,26 @@
+// 版本声明，使用Protocol Buffers v3版本
+syntax = "proto3";
+
+// 指定生成的Go代码在你项目中的导入路径
+option go_package = "../service";
+
+// 指定等下文件生成出来的package
+package service;
+
+//定义request modle
+message ProductRequest {
+  int32 prod_id = 1;  //1代表顺序
+}
+
+//定义response modle
+message ProductResponse {
+  int32 prod_stock = 1;
+}
+
+//定义服务主体
+service ProdService {
+  //定义方法
+  rpc GetProductStock(ProductRequest) returns(ProductResponse);
+}
+
+//  protoc --go_out=plugins=grpc:./ .\product.proto

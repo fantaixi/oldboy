@@ -24,8 +24,9 @@ func main() {
 	fmt.Println("connect to etcd success")
 	defer cli.Close()
 	// put
+	str := `[{"path":"d:/logs/s4.log","topic":"s4_log"},{"path":"e:/logs/web.log","topic":"web_log"}]`
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
-	_, err = cli.Put(ctx, "fantaixi", "123456")
+	_, err = cli.Put(ctx, "collect_log_conf", str)
 	cancel()
 	if err != nil {
 		fmt.Printf("put to etcd failed, err:%v\n", err)
@@ -33,7 +34,7 @@ func main() {
 	}
 	// get
 	ctx, cancel = context.WithTimeout(context.Background(), time.Second)
-	resp, err := cli.Get(ctx, "fantaixi")
+	resp, err := cli.Get(ctx, "collect_log_conf")
 	cancel()
 	if err != nil {
 		fmt.Printf("get from etcd failed, err:%v\n", err)

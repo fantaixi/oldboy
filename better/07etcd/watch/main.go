@@ -20,7 +20,7 @@ func main() {
 	}
 	fmt.Println("connect to etcd success")
 	defer cli.Close()
-	// watch key:q1mi change
+	// watch key change
 	//用哨兵监视key的变化(新增、修改、删除)
 	rch := cli.Watch(context.Background(), "fantaixi") // <-chan WatchResponse
 	//从通道尝试取值(监视的信息)

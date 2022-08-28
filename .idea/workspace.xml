@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb31174-0ea9-40d7-8b58-a55a56ae997c" name="Default Changelist" comment="22_07_22">
+      <change beforePath="$PROJECT_DIR$/better/07etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/07etcd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better/07etcd/watch/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/better/07etcd/watch/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logagent/taillog/taillog.go" beforeDir="false" afterPath="$PROJECT_DIR$/logagent/taillog/taillog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logagent/conf/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/logagent/conf/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logagent/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/logagent/conf/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logagent/etcd/etcd.go" beforeDir="false" afterPath="$PROJECT_DIR$/logagent/etcd/etcd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logagent/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/logagent/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -40,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,11 +54,11 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/better/04context" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,43 +75,7 @@
       <recent name="E:\go_workspace\src\oldboy\基础\22结构体\自定义类型" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build oldboy/better/06sarama">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="oldboy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/WithValue/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/better/04context/WithCancel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/better/04context/WithCancel" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/WithCancel/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/better/04context/WithValue" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/better/04context/WithValue" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/WithValue/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build oldboy/better/04context/withTimeout" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldboy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="oldboy/better/04context/withTimeout" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/better/04context/withTimeout/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build oldboy/better/11grpc">
     <configuration name="go build oldboy/better/06sarama" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldboy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,13 +85,49 @@
       <filePath value="$PROJECT_DIR$/better/06sarama/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build oldboy/better/08gopsutil/cpu_info" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/better/08gopsutil/cpu_info" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/better/08gopsutil/cpu_info/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build oldboy/better/09influxDB" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/better/09influxDB" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/better/09influxDB/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build oldboy/better/10es" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/better/10es" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/better/10es/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build oldboy/better/11grpc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldboy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="oldboy/better/11grpc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/better/11grpc/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build oldboy/better/11grpc" />
+        <item itemvalue="Go Build.go build oldboy/better/10es" />
+        <item itemvalue="Go Build.go build oldboy/better/09influxDB" />
+        <item itemvalue="Go Build.go build oldboy/better/08gopsutil/cpu_info" />
         <item itemvalue="Go Build.go build oldboy/better/06sarama" />
-        <item itemvalue="Go Build.go build oldboy/better/04context/withTimeout" />
-        <item itemvalue="Go Build.go build oldboy/better/04context/WithCancel" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build oldboy/better/04context/WithValue" />
       </list>
     </recent_temporary>
   </component>

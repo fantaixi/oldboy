@@ -49,6 +49,24 @@ func main() {
 		return
 	}
 	fmt.Println("init etcd success")
+	//2.1从etcd中获取日志收集项的配置信息
+	logEntryConf,err := etcd.GetConf(cfg.EtcdConf.Key)
+	//2.2用哨兵去监视日志收集项的变化，有变化就通知logagent实现热加载配置
+	if err != nil {
+		fmt.Printf("etcd.GetConf failed,err:%v\n",err)
+		return
+	}
+	fmt.Printf("get conf from etcd success,value:%v\n",logEntryConf)
+	//for k, v := range logEntryConf {
+	//	fmt.Printf("index:%v,value:%v\n",k,v)
+	//}
+	//3、收集日志项发往kafka
+	//3.1循环每一个日志收集项创建TailObj
+	//for _, logEntry := range logEntryConf {
+	//
+	//}
+	//3.2发往kafka
+
 	//3、打开日志文件准备收集
 	//err = taillog.Init(cfg.TaillogConf.FileName)
 	//if err != nil {
